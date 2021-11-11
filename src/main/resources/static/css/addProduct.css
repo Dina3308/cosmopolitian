@@ -1,0 +1,51 @@
+body{
+    background-color:#f1edec;
+}
+
+.addProduct {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.addProduct form {
+    text-align: center;
+}
+
+.addProduct input,
+textarea,
+button {
+    outline: 0;
+    -moz-outline-style: none;
+}
+.addProduct input[type="text"],
+input[type="number"],
+textarea{
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.addProduct input:focus,
+textarea:focus{
+    border: 1px solid #b85d4d;
+}
+
+.addProduct input[type="text"],
+input[type="number"] {
+    text-align: center;
+    height: 40px;
+    width: calc(100%);
+}
+.addProduct button {
+    height: 40px;
+    width: 50%;
+    border-radius: 15px;
+    background: #b85d4d;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+}

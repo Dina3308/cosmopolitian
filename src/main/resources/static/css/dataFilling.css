@@ -1,0 +1,33 @@
+body{
+    background-color:#f1edec;
+}
+.container{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.col {
+    width: 22%;
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: box-shadow .4s ease;
+    border-radius: 5px;
+    padding: 10px;
+}
+.orderBtn{
+    background: #b85d4d;
+    float: right;
+}
+.basketBtn{
+    background: #c6c8ca;
+    float: left;
+    color: #1c1713;
+}

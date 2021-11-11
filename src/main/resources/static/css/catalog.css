@@ -1,0 +1,147 @@
+.container-1{
+    display: flex;
+    background-color: #fffafa;
+}
+.container-2 {
+    background-color: #fffafa;
+}
+#addProduct {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.nav{
+    width: 15%;
+    margin-top: 20px;
+}
+.products{
+    width: 85%;
+    margin-top: 20px;
+    height: 100%;
+
+}
+#products2{
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.order_content{
+    width: 100%;
+}
+.products img, .order_content img{
+    width: 180px;
+    height: 180px;
+}
+table {
+    border: 1px solid grey;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid grey;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.head, .nav_head{
+    background-color: #efcfdc;
+    height: 40px;
+}
+.head_order{
+    height: 40px;
+}
+.basket{
+    background-color: #efcfdc;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding-top: 10px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+
+.nav{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.products{
+    margin-right: 20px;
+}
+.nav_content{
+    background-color: #f1edec;
+}
+
+.inp_price {
+    width:80px;
+    height: 20px;
+    text-align:center;
+    border:1px solid gray;
+}
+#btn{
+    margin-top: 10px;
+    border-color: #d6d8d9;
+}
+
+.button{
+    background-color: #ff5c77;
+    font-size: 14px;
+    color: #ffffff;
+    display:inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+    text-align: center;
+    border: none;
+}
+#orderBtn{
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: #f72f57;
+    text-decoration: none;
+    box-shadow: 0 5px 30px 0 rgba(31, 35, 37, 0.4);
+    color: #ffffff;
+    border: none;
+}
+input{outline:none;}
+
+.nav_content a {
+    text-decoration: none;
+    color: #000000;
+    display:inline-block;
+    transition: all 0.2s ease-in;
+}
+
+#2{
+    background-color: #d6d8d9;
+}
+
+.nav_content:hover{
+    text-decoration: none;
+    background-color: #d6d8d9;
+}
+.nav_content:focus{
+    text-decoration: none;
+    background-color: #d6d8d9;
+}
+.title{
+    width: 400px;
+}
+.image{
+    width: 200px;
+}
+.order{
+    float: right;
+    margin-bottom: 20px;
+}
